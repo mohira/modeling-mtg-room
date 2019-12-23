@@ -154,4 +154,19 @@
 
 
 
+---
+
+# 実装編
+
+以下のユースケースが存在する為、
+実装をしてみる。
+
+ユースケース図
+![image](https://user-images.githubusercontent.com/33717710/71358998-42a7b800-25ce-11ea-8ebe-43b3835142a8.png)
+
+モデル図
+![image](https://user-images.githubusercontent.com/33717710/71359321-67e8f600-25cf-11ea-87aa-65666f82bf7b.png)
+
+
+
 以上

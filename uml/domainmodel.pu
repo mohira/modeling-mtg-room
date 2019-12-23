@@ -1,0 +1,31 @@
+@startuml
+
+class 予約者
+class 予約
+
+rectangle 予約する時に必要な情報 {
+    class 会議室
+    class 予約者ID
+    rectangle ここは纏めたほうが良さげ {
+        class 開始時間
+        class 予約時間
+        class 日時
+    }
+    class 予約人数
+    class 予約者ID
+    note bottom of 予約者ID
+    誰が予約したか
+    end note 
+}
+
+note right of ここは纏めたほうが良さげ
+15分単位
+end note
+note bottom of ここは纏めたほうが良さげ
+30日後まで予約できる
+end note
+note bottom of ここは纏めたほうが良さげ
+予約時間は10:00-19:00
+end note
+
+@enduml
