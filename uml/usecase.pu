@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+
+actor 予約者
+rectangle  {
+    予約者 -- (会議室を予約する)
+}
+
+note bottom of (会議室を予約する)
+予約対象の会議室が埋まっていたら、
+予約できない
+end note
+@enduml
